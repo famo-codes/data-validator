@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="famo-data-validator",
-    version="0.1.5",
+    version="0.1.6",
     author="Famo",
     author_email="CoreByMostafa@gmail.com",
     description="Python data validation library with type hints and schema support",
