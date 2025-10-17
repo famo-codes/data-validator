@@ -133,4 +133,4 @@ class Serializer(Generic[T]):
                 if key not in ["required", "default", "validators_list", "custom"]:
                     field_schema[key] = value
             schema[name] = field_schema
-        return schema if not self.many else [schema]
+        return schema
